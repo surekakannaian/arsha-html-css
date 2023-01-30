@@ -1,0 +1,770 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    padding: 1% 0%;
+   
+}
+.navbar-brand{
+    width: 20%;
+   margin: auto;
+   font-size: 24px;
+   
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 55%;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: auto;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    color: rgb(106, 169, 228);
+}
+header{
+    background-color: rgba(40, 58, 90, 0.9);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.navbtn{
+    border: 1px solid rgb(106, 169, 228);
+    background-color: transparent;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+}
+.menu{
+    display: none;
+}
+#check{
+    display: none;
+}
+.btnrad{
+    border-bottom-left-radius:20px ;
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    border-top-right-radius:20px ;
+}
+
+.master-head .row .col-sm-6 img{
+height: 450px;
+}
+.master-head .row .left{
+    padding-left: 8%;
+    padding-top: 5%;
+}
+.master-head{
+    background-color: #37517e;
+}
+.master-head h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.master-head p{
+    font-size: 25px;
+    color: rgb(210, 221, 221);
+    margin-top: 2%;
+}
+.master-head .video{
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.btn{
+padding: 2%;
+color: #fff;
+background-color: rgb(0, 162, 255);
+border: none;
+}
+.clients .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-content: center;
+    justify-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(240, 239, 239);
+    row-gap: 10px;
+}
+.clients .grid-container img{
+    width: 100px;
+    height: 40px;
+}
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+    text-align: center;
+    margin-top: 4%;
+}
+  .section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+.container{
+    padding: 2% 9%;
+}
+ul{
+    list-style: none;
+}
+.row, .d-flex{
+    display: flex;
+}
+.col-sm-6, .col-md-6{
+    width: 50%;
+}
+.pt-5{
+    padding-top: 5%;
+}
+.pt-3{
+    padding-top: 3%;
+}
+.pb-2{
+    padding-bottom: 2%;
+}
+.pb-5{
+    padding-bottom: 5%;
+}
+.pb-4{
+    padding-bottom: 4%;
+}
+.pt-3{
+    padding-top: 3%;
+}
+.me-2{
+    margin-right: 2%;
+}
+.mt-2{
+    margin-top: 2%;
+}
+.mt-4{
+    margin-top: 4%;
+}
+.mt-3{
+    margin-top: 3%;
+}
+.mb-4{
+    margin-bottom: 4%;
+}
+.mb-2{
+    margin-bottom: 2%;
+}
+.p-3{
+    padding: 3%;
+}
+.p-2{
+    padding: 2%;
+}
+.p-1{
+    padding: 1%;
+}
+.p-5{
+    padding: 5%;
+}
+.pe-2{
+    padding-right: 2%;
+}
+p{
+    line-height: 22px;
+    font-size: 18px;
+}
+.blue{
+    color: #47b2e4;
+}
+.btnbor{
+    background-color: transparent;
+    padding: 2%;
+    border: 2px solid #47b2e4;
+}
+img{
+    width: 100%;
+}
+.bg-light{
+     background-color: rgb(240, 239, 239); 
+}
+.head-blue{
+     color: #37517e;
+}
+.accordion button{
+    background-color: #fff;
+   padding: 2%;
+    width: 90%;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2%;
+}
+.accordion button span{
+    color: #47b2e4;
+}
+.progress-bar{
+    background-color: #194ab4;
+    color:#fff;
+    text-align: right;
+}
+.services .card{
+    box-shadow: 0 0 30px rgb(206, 206, 206);
+    background-color: #fff;
+    border-radius: 4px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+   }
+   .back{
+    background: url("images/cta-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    background-attachment: fixed;
+   }
+  .back .container-fluid{
+    background-color:rgba(39, 51, 112, 0.8);
+  }
+  .back .row{
+    align-items: center;
+  }
+  .back .col-lg-7{
+    width: 75%;
+  }
+  .mx-auto{
+    margin: auto;
+  }
+  .back button{
+    padding: 8% 0.5%;
+    width: 100px;
+   color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+  }
+.portfolio .col-12{
+    width: 35%;
+}
+.galleryrow{
+    position: relative;
+    height: 950px;
+}
+.gallerycol1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.gallerycol2{
+    position: absolute;
+    left: 330px;
+    top: 0;
+}
+.gallerycol3{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.gallerycol4{
+    position: absolute;
+    left: 0;
+    top:330px ;
+}
+.gallerycol5{
+    position: absolute;
+    left: 330px;
+    top: 230px;
+}
+.gallerycol6{
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+.gallerycol7{
+    position: absolute;
+    right: 0;
+    top:430px ;
+}
+.gallerycol8{
+    position: absolute;
+    left: 330px;
+    top: 700px;
+}
+.gallerycol9{
+    position: absolute;
+    right: 0;
+    top: 660px ;
+}
+.w-100{
+    width: 100%;
+}
+.rounded-circle{
+    border-radius: 50%;
+}
+.tcard .my-auto{
+    margin: auto;
+}
+.tcard{
+    background-color: #fff;
+    padding: 2%;
+    border: 3%;
+    box-shadow: 0 0 30px rgb(206, 206, 206);
+    transition: all ease 0.5s;
+    cursor: pointer;
+    width: 80%;
+    margin: auto;
+}
+.tcard .content h5{
+    color: #37517e;
+}
+.tcard .content i{
+    padding: 2%;
+    background-color: rgb(204, 211, 216);
+    border-radius: 50%;
+    color: #37517e;
+    margin: 1%;
+}
+.tcard .head::after{
+    content: "";
+    top: 0;
+    display: block;
+    height: 0.3px;
+    width: 10%;
+    background-color: rgb(192, 188, 188);
+   margin-top: 2%;
+}
+.pricing .card{
+    box-shadow: 0 0 30px rgb(206, 206, 206);
+    transition: all ease 0.5s; 
+    margin: auto;
+}
+.pricing i{
+    font-size: 15px;
+}
+.pricing ul{
+    margin-top: 2%;
+}
+.pricing ul li{
+    margin-top: 2%;
+}
+.pricing button{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.pricing .card{
+    width:300px;
+    margin-top: 5%;
+}
+.text-decoration-line-through{
+    text-decoration: line-through;
+}
+.text-muted{
+    color: rgb(160, 159, 159);
+}
+.text-success{
+    color: green;
+}
+.text-secondary{
+    color:rgb(160, 159, 159) ;
+}
+.question .width{
+    width: 70%;
+}
+.question button{
+    display: block;
+    text-align: left;
+    margin-left: auto;
+}
+.question i{
+    font-size: 15px;
+    margin-right: 2%;
+}
+.mx-auto{
+    text-align:center;
+}
+.contact .d-flex i{
+    background-color: rgb(196, 230, 238);
+    padding: 2%;
+    height: 30px;
+    margin-top: 0;
+    font-size: 20px;
+    color: rgb(55, 126, 219);
+    border-radius: 50%;
+    }
+    .contact .cont{
+        margin-left: 2%;
+    }
+    .column1{
+        box-shadow: 0 0 20px rgb(206, 206, 206);
+    }
+    .contact .col-sm-7{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact .col-sm-5{
+   padding: 1%;
+    }
+    .contact input{
+        height: 30px;
+    }
+    .contact .row{
+        justify-content: space-around;
+    }
+    .subscribe h5{
+        color: #37517e;
+            }
+ .subscribe input{
+                border-bottom-left-radius:20px ;
+                border-top-left-radius:20px ;
+      outline: none;
+      background-color: #fff;
+      border: none;
+      height: 30px;
+      width: 50%;
+            }
+ .round{display: block;
+                border-bottom-right-radius:20px ;
+                border-top-right-radius:20px ;  
+            }
+        .input-group{
+            display: flex;
+            justify-content: center;
+            margin-top: 2%;
+        }
+        .input-group span{
+           height: 30px;
+           width: 100px;
+           align-items: center;
+        }
+    .subscribe .text-center{
+        text-align: center;
+    }
+    .foot .row{
+        justify-content: space-around;
+    }
+    footer a{
+        text-decoration: none;
+        color: gray;
+        font-size: 14px;
+    }
+    footer i{
+        color: rgb(58, 176, 231);
+    }
+    footer p{
+        font-size: 13px;
+    }
+    .social i{
+        color: #fff;
+        background-color: rgb(58, 176, 231);
+        padding: 2.5%;
+        border-radius: 50%;
+    }
+    footer .small{
+        background-color: #37517e;
+        color: #fff;
+    }
+    footer .small .color{
+        color: rgb(37, 172, 196);
+    }
+    .foot h5 , h3{
+        color: #37517e;
+    }
+    @media only screen and (max-width:1180px) {
+        .galleryrow{
+            position: relative;
+            height: 950px;
+        }
+        .gallerycol1{
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .gallerycol2{
+            position: absolute;
+            left: 305px;
+            top: 0;
+        }
+        .gallerycol3{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .gallerycol4{
+            position: absolute;
+            left: 0;
+            top:300px ;
+        }
+        .gallerycol5{
+            position: absolute;
+            left: 305px;
+            top: 210px;
+        }
+        .gallerycol6{
+            position: absolute;
+            right: 0;
+            top: 180px;
+        }
+        .gallerycol7{
+            position: absolute;
+            right: 0;
+            top:390px ;
+        }
+        .gallerycol8{
+            position: absolute;
+            left: 305px;
+            top: 650px;
+        }
+        .gallerycol9{
+            position: absolute;
+            right: 0;
+            top: 600px ;
+        }
+    }
+    @media only screen and (max-width:1080px) {
+        .pricing .row{
+            display: block;
+        }
+        .galleryrow{
+            position: relative;
+            height: 900px;
+        }
+        .gallerycol1{
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .gallerycol2{
+            position: absolute;
+            left: 265px;
+            top: 0;
+        }
+        .gallerycol3{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .gallerycol4{
+            position: absolute;
+            left: 0;
+            top:300px ;
+        }
+        .gallerycol5{
+            position: absolute;
+            left: 265px;
+            top: 210px;
+        }
+        .gallerycol6{
+            position: absolute;
+            right: 0;
+            top: 180px;
+        }
+        .gallerycol7{
+            position: absolute;
+            right: 0;
+            top:390px ;
+        }
+        .gallerycol8{
+            position: absolute;
+            left: 265px;
+            top: 650px;
+        }
+        .gallerycol9{
+            position: absolute;
+            right: 0;
+            top: 600px ;
+        }
+    }
+@media only screen and (max-width:900px) {
+    .navbar-brand{
+        width: 20%;
+       margin: 0;
+       font-size: 24px;
+       
+    }
+    .menu{
+        display: block;
+        margin-left: auto;
+        cursor: pointer;
+        color: #fff;
+        position: relative;
+    }
+ nav ul{
+            display: block;
+            width: 50%;
+            background: #37517e;
+            text-align: center;
+            margin-left: -100%;
+            transition: all 1s;
+            position: absolute;
+        }
+        #check:checked ~ ul{
+           margin-left: 0;
+        }
+ header{
+   padding-left: 5%;
+   padding-right: 5%; 
+ }
+.team .row{
+    display: block;
+}
+
+.tcard{
+    width: 80%;
+}
+.team .col-md-6{
+    width: 100%;
+}
+    .clients .grid-container{
+        grid-template-columns: auto auto auto;
+    }
+    .portfolio .col-12{
+        width: 50%;
+    }
+    .galleryrow{
+        position: relative;
+        height: 1100px;
+    }
+    .gallerycol1{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .gallerycol2{
+        position: absolute;
+        left: 0;
+        top: 790px;
+    }
+    .gallerycol3{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .gallerycol4{
+        position: absolute;
+        left: 0;
+        top:320px ;
+    }
+    .gallerycol5{
+       display:none;
+    }
+    .gallerycol6{
+        position: absolute;
+        right: 0;
+        top: 180px;
+    }
+    .gallerycol7{
+        position: absolute;
+        right: 0;
+        top:390px ;
+    }
+    .gallerycol8{
+        position: absolute;
+        left: auto;
+        top: 830px;
+        right: 0;
+    }
+    .gallerycol9{
+        position: absolute;
+        right: 0;
+        top: 600px ;
+    }
+   .contact .row{
+    display: block;
+   }
+}
+@media only screen and (max-width:600px) {
+    .clients .grid-container{
+        grid-template-columns: auto auto;
+    }
+    .row{
+        display: block;
+    }
+    .back .row{
+        display: flex;
+    }
+    .col-sm-6, .col-md-6{
+        width: 100%;
+    }
+    footer .small{
+     text-align: center;
+    }
+    .question .width{
+        width: 100%;
+    }
+    .portfolio .col-12{
+        width: 100%;
+    }
+    .gallerycol1{
+        position: relative;
+       left: 0;
+       top: 0;
+    }
+    .gallerycol2{
+        position: relative;
+      left: 0;
+      top: 0;
+    }
+    .gallerycol3{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .gallerycol4{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .gallerycol5{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .gallerycol6{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .gallerycol7{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .gallerycol8{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .gallerycol9{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .galleryrow{
+    height: auto;
+    }
+}
